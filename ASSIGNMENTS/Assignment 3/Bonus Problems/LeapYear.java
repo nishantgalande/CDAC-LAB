@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class LeapYear{
-	public static void main(String[] args){
+	
+	static void year(){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the year : ");
 		int year = sc.nextInt();
@@ -20,5 +21,9 @@ public class LeapYear{
 				System.out.println(year + " is not leap year!");
 				break;
 		}
+	}
+	
+	public static void main(String[] args){
+		LeapYear.year();
 	}
 }

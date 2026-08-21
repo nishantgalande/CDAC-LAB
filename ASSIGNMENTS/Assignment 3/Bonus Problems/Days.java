@@ -2,9 +2,8 @@
 import java.util.Scanner;
 
 public class Days {
-
-	public static void main(String[] args) {
-
+	
+	static void check(){
 		Scanner sc = new Scanner(System.in);
 		int day = sc.nextInt();
 	
@@ -34,6 +33,11 @@ public class Days {
 				System.out.println("Enter the right value");
 				break;			
 		}
+	}
+
+	public static void main(String[] args) {
+
+		Days.check();
 
 	}
 }

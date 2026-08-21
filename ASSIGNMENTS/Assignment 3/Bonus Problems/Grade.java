@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Grade {
 	
-	
-	public static void main(String[] args){
+	static void gradeCheck(){
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the marks of maths: ");
@@ -49,5 +48,10 @@ public class Grade {
                 break;
         }
 		
+	}
+	
+	
+	public static void main(String[] args){
+		Grade.gradeCheck();
 	}
 }
