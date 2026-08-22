@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class OddNumbers{
-	public static void main(String[] args){
+	
+	static void nums(){
 		Scanner sc = new Scanner(System.in);
-		
+		System.out.print("Enter the number: ");
 		int num = sc.nextInt();
 		int ans = 0;
 		for(int i = 1;i<=num;i++){
@@ -11,6 +12,9 @@ public class OddNumbers{
 				ans = ans+i;
 			}	
 		}
-		System.out.println(ans);
+		System.out.println("Sum of odd number's is : "+ans);
+	}
+	public static void main(String[] args){
+		OddNumbers.nums();
 	}
 }
